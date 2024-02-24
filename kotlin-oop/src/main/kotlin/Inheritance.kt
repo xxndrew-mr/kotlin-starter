@@ -1,7 +1,5 @@
 package org.example
 
-import java.awt.Color
-
 //konsep inheritance atau pewarisan yang merupakan salah satu pilar dari OOP harus diterapkan.
 // Pewarisan dapat mencegah kita melakukan perulangan kode. Untuk lebih memahaminya lihatlah
 // contoh bagan pada sebuah kelas berikut:
@@ -17,7 +15,7 @@ open class animale(val name:String, val weight : Double, val age : Int,val isCar
 }
 
 class Cat(pName: String, pWeight: Double,pAge: Int,pisCarnivora: Boolean, val funColor: String, val numberOfeet: Int )
-    : animale(pName,pWeight,pAge,pisCarnivora){
+    : anim(pName,pWeight,pAge,pisCarnivora){
         fun playWithHuman(){
             println("$name sedang bermain sama andre")
         }
