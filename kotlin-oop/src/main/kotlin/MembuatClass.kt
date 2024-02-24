@@ -1,6 +1,6 @@
 package org.example
 
-class Animal () {
+class cat () {
     var name : String = "Kucing"
     var weight : Double = 3.2
     var age : Int = 2
@@ -16,7 +16,7 @@ class Animal () {
 }
 
 fun main() {
-    val rumahCat = Animal()
+    val rumahCat = cat()
     println("Nama: ${rumahCat.name}), Berat: ${rumahCat.weight}, Umur : ${rumahCat.age}, Mamalia : ${rumahCat.isMammal}")
     rumahCat.eat()
     rumahCat.sleep()
