@@ -7,7 +7,7 @@ package org.example
 //kita hanya perlu menambahkan keyword abstract
 // sebelum menuliskan nama kelas
 
-
+/*
 abstract class animol(val name:String, val weight : Double, val age : Int, val isCarnivora : Boolean){
     open fun eat(){
         println("$name sedang makan")
@@ -21,3 +21,5 @@ abstract class animol(val name:String, val weight : Double, val age : Int, val i
 fun main() {
     val animol = animal("Andre",2.1,4,true)
 }
+
+ */

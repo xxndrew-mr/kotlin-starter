@@ -13,7 +13,7 @@ open class animale(val name:String, val weight : Double, val age : Int,val isCar
         println("$name sedang tidur")
     }
 }
-
+/*
 class Cat(pName: String, pWeight: Double,pAge: Int,pisCarnivora: Boolean, val funColor: String, val numberOfeet: Int )
     : anim(pName,pWeight,pAge,pisCarnivora){
         fun playWithHuman(){
@@ -41,3 +41,5 @@ fun main() {
     andreCat.sleep()
 
 }
+
+ */
