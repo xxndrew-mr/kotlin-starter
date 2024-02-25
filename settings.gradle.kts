@@ -8,3 +8,4 @@ include("OOP")
 include("OOP:src:main:OOP")
 findProject(":OOP:src:main:OOP")?.name = "OOP"
 include("kotlin-oop")
+include("kotlin-fp")
