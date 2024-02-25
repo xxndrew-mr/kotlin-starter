@@ -17,6 +17,7 @@ fun main() {
 // class adalah ia sudah memiliki fungsi equals()
 // secara otomatis
 
+/*
 data class DataUser (val name : String,val age : Int)
 
 
@@ -33,5 +34,6 @@ fun main() {
 
     println(dataUser4)
 }
+ */
 
 
