@@ -6,8 +6,10 @@ package org.example
 // tidak memiliki fungsionalitas lain selain menangani data
 
 //untuk mengelola data hanya dengan sebuah keyword "data"
-
+/*
 data class User(val name: String,val age: Int)
+
+ */
 
 //Hanya dengan satu baris kode di atas, kompiler
 // akan secara otomatis menghasilkan constructor,
